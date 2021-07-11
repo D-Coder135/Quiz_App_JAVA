@@ -17,5 +17,6 @@ public class ThirdPage extends AppCompatActivity {
         nextButton = findViewById(R.id.button3);
         firstOption = findViewById(R.id.radioButton7);
         secondOption = findViewById(R.id.radioButton8);
+        thirdOption = findViewById(R.id.radioButton9);
     }
 }
