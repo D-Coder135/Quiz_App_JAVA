@@ -26,6 +26,8 @@ public class SecondPage extends AppCompatActivity {
             public void onClick(View v) {
                 if (fourthOption.isChecked()) {
                     ++MainActivity.score;
+                } else {
+
                 }
             }
         });
