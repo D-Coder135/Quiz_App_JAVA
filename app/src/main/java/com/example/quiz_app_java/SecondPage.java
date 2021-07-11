@@ -3,6 +3,7 @@ package com.example.quiz_app_java;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 
@@ -20,5 +21,11 @@ public class SecondPage extends AppCompatActivity {
         thirdOption = findViewById(R.id.radioButton5);
         fourthOption = findViewById(R.id.radioButton6);
 
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
