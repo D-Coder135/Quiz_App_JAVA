@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
                     --score;
                 }
                 Intent intent = new Intent(MainActivity.this, SecondPage.class);
+                startActivity(intent);
+
             }
         });
     }
