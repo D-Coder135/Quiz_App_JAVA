@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         nextButton = findViewById(R.id.button);
+        firstOption = findViewById(R.id.radioButton);
 
     }
 }
