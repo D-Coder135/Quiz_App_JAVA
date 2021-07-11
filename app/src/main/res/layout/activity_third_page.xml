@@ -27,6 +27,7 @@
             android:id="@+id/radioButton7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Java" />
+            android:text="Java"
+            android:textColor="#011CAF" />
     </RadioGroup>
 </RelativeLayout>
