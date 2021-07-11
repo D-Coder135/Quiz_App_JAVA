@@ -38,6 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:text="Kotlin" />
+            android:text="Kotlin"
+            android:textColor="#0327ED" />
     </RadioGroup>
 </RelativeLayout>
