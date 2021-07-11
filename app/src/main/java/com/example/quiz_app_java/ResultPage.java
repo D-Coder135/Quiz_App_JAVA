@@ -16,5 +16,7 @@ public class ResultPage extends AppCompatActivity {
         setContentView(R.layout.activity_result_page);
         resultView = findViewById(R.id.textView4);
         startOver = findViewById(R.id.button4);
+
+        resultView.setText("Your Final Score Is = " +MainActivity.score);
     }
 }
