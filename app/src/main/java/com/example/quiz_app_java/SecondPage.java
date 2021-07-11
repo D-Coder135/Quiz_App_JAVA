@@ -4,9 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.RadioButton;
 
 public class SecondPage extends AppCompatActivity {
     Button nextButton;
+    RadioButton firstOption, secondOption, thirdOption, fourthOption;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
