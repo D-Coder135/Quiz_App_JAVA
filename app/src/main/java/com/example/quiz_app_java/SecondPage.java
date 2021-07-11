@@ -31,7 +31,7 @@ public class SecondPage extends AppCompatActivity {
                     --MainActivity.score;
                 }
                 Intent intent = new Intent(SecondPage.this, ThirdPage.class);
-
+                startActivity(intent);
             }
         });
     }
