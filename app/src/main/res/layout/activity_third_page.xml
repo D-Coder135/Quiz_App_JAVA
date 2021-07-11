@@ -51,4 +51,13 @@
             android:text="C#"
             android:textColor="#0420BF" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:text="Button" />
 </RelativeLayout>
