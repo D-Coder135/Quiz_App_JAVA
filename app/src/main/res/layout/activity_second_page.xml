@@ -15,5 +15,6 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="68dp"
         android:text="Q.2: React-Native is a framework of?"
+        android:textColor="#FB0808"
         android:textSize="20sp" />
 </RelativeLayout>
