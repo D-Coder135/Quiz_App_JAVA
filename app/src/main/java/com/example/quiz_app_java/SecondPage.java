@@ -24,7 +24,9 @@ public class SecondPage extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (fourthOption.isChecked()) {
 
+                }
             }
         });
     }
