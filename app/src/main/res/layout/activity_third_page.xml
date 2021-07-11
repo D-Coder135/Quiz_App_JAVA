@@ -48,6 +48,7 @@
             android:id="@+id/radioButton10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="C#" />
+            android:text="C#"
+            android:textColor="#0420BF" />
     </RadioGroup>
 </RelativeLayout>
