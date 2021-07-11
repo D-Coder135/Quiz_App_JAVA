@@ -17,5 +17,6 @@ public class SecondPage extends AppCompatActivity {
         nextButton = findViewById(R.id.button2);
         firstOption = findViewById(R.id.radioButton3);
         secondOption = findViewById(R.id.radioButton4);
+        thirdOption = findViewById(R.id.radioButton5);
     }
 }
