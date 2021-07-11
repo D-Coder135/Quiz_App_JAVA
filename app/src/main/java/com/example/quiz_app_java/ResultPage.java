@@ -15,5 +15,6 @@ public class ResultPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result_page);
         resultView = findViewById(R.id.textView4);
+        startOver = findViewById(R.id.button4);
     }
 }
