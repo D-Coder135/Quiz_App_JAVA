@@ -14,5 +14,6 @@ public class ResultPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result_page);
+        resultView = findViewById(R.id.textView4);
     }
 }
