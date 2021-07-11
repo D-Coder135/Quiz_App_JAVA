@@ -31,6 +31,7 @@ public class ThirdPage extends AppCompatActivity {
                     --MainActivity.score;
                 }
                 Intent intent = new Intent(ThirdPage.this, ResultPage.class);
+                startActivity(intent);
             }
         });
     }
