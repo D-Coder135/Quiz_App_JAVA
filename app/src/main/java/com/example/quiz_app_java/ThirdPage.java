@@ -25,7 +25,7 @@ public class ThirdPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (thirdOption.isChecked()) {
-
+                    ++MainActivity.score;
                 }
             }
         });
