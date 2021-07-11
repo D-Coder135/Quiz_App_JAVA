@@ -14,5 +14,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="56dp"
         android:layout_marginTop="102dp"
-        android:text="Q.3: Flutter uses which language?" />
+        android:text="Q.3: Flutter uses which language?"
+        android:textSize="20sp" />
 </RelativeLayout>
