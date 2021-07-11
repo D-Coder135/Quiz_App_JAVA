@@ -18,4 +18,9 @@
         android:text="Java Is A Dynamic Programming Language?"
         android:textColor="#ED0404"
         android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="384dp"
+        android:layout_height="406dp"
+        android:layout_centerInParent="true" />
 </RelativeLayout>
