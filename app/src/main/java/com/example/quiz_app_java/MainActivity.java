@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 score = 0;
+                if (firstOption.isChecked()) {
+                }
             }
         });
     }
