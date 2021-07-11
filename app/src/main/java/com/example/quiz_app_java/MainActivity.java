@@ -9,6 +9,7 @@ import android.widget.RadioButton;
 public class MainActivity extends AppCompatActivity {
     Button nextButton;
     RadioButton firstOption, secondOption;
+    static int score = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
