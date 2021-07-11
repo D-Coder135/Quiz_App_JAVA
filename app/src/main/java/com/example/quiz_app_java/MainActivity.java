@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 if (firstOption.isChecked()) {
                     ++score;
                 } else {
-
+                    --score;
                 }
             }
         });
