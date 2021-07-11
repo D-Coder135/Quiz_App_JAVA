@@ -26,6 +26,7 @@ public class ResultPage extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(ResultPage.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
