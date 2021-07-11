@@ -14,5 +14,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="32dp"
         android:layout_marginTop="68dp"
-        android:text="Q.2: React-Native is a framework of?" />
+        android:text="Q.2: React-Native is a framework of?"
+        android:textSize="20sp" />
 </RelativeLayout>
