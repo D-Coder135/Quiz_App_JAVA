@@ -3,8 +3,10 @@ package com.example.quiz_app_java;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class ResultPage extends AppCompatActivity {
+    TextView resultView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
