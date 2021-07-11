@@ -30,5 +30,11 @@
             android:layout_height="wrap_content"
             android:text="True"
             android:textColor="#061CED" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
     </RadioGroup>
 </RelativeLayout>
