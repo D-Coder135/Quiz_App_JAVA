@@ -25,7 +25,7 @@ public class SecondPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (fourthOption.isChecked()) {
-
+                    ++MainActivity.score;
                 }
             }
         });
