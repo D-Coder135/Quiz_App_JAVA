@@ -1,12 +1,11 @@
 package com.example.quiz_app_java;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SecondPage extends AppCompatActivity {
     Button nextButton;
@@ -22,18 +21,15 @@ public class SecondPage extends AppCompatActivity {
         thirdOption = findViewById(R.id.radioButton5);
         fourthOption = findViewById(R.id.radioButton6);
 
-        nextButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (fourthOption.isChecked()) {
-                    ++MainActivity.score;
-                } else {
-                    --MainActivity.score;
-                }
-                Intent intent = new Intent(SecondPage.this, ThirdPage.class);
-                startActivity(intent);
-                finish();
+        nextButton.setOnClickListener(v -> {
+            if (fourthOption.isChecked()) {
+                ++MainActivity.score;
+            } else {
+                --MainActivity.score;
             }
+            Intent intent = new Intent(SecondPage.this, ThirdPage.class);
+            startActivity(intent);
+            finish();
         });
     }
 }
