@@ -14,5 +14,5 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="36dp"
         android:layout_marginTop="118dp"
-        android:text="TextView" />
+        android:text="Java Is A Dynamic Programming Language?" />
 </RelativeLayout>
