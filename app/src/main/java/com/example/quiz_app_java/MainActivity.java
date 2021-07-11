@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 score = 0;
                 if (firstOption.isChecked()) {
+                    ++score;
                 }
             }
         });
