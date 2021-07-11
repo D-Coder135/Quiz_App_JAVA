@@ -27,7 +27,7 @@ public class ThirdPage extends AppCompatActivity {
                 if (thirdOption.isChecked()) {
                     ++MainActivity.score;
                 } else {
-
+                    --MainActivity.score;
                 }
             }
         });
