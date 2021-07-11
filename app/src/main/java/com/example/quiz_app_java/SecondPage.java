@@ -27,7 +27,7 @@ public class SecondPage extends AppCompatActivity {
                 if (fourthOption.isChecked()) {
                     ++MainActivity.score;
                 } else {
-
+                    --MainActivity.score;
                 }
             }
         });
